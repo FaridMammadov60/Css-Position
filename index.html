@@ -5,24 +5,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./Assets/Css/Style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="home-index">
-        <div class="start">
-            <div class="start-bootstrap">
-                <h1>START BOOTSRTAP</h1>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">START BOOTSTRAP
+            </h1>
+            <ul class="navlist">
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="start">
+            <div class="icon">
+                <img src="./Assets/images/iconimage.png" alt="">
             </div>
-            <div class="start-navbar">
-                <ul>
-                    <li>CONTACT</li>
-                    <li>ABOUT</li>
-                    <li>PORTFOLIO</li>
-                </ul>
+            <h1 class="word2">START BOOTSTRAP</h1>
+            <div class="icon2">
+                <img src="./Assets/images/icon2.png" alt="">
+            </div>
+            <div class="word2">Graphic Artist - Web Designer - Illustrator</div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="icon-star">
+                <img src="./Assets/images/icon4.png" alt="">
+            </div>
+            <div class="port-img">
+                <img src="./Assets/images/port-img1.png" alt="">
+                <img src="./Assets/images/port-img2.png" alt="">
+                <img src="./Assets/images/port-img3.png" alt="">
+            </div>
+            <div class="port-img">
+                <img src="./Assets/images/port-img4.png" alt="">
+                <img src="./Assets/images/port-img5.png" alt="">
+                <img src="./Assets/images/port-img6.png" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About</h2>
+            <div class="icon2">
+                <img src="./Assets/images/icon2.png" alt="">
+            </div>
+            <div class="about-p">
+                <p class="about-p1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                    includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
+                    stylesheets for easy customization.</p>
+                <p class="about-p2">You can create your own custom avatar for the masthead, change the icon in the
+                    dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div><br>
+            <div class="about-footer">
+                <div class="about-icon">
+                    <span class="material-symbols-outlined">
+                        file_download
+                    </span>
+                </div>
+                <div style="width: 1000px;" class="button-download">
+                    <input class="submit" type="submit" value="Free Download">
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <div class="icon2">
+                <img src="./Assets/images/icon4.png" alt="">
+            </div>
+            <form action="">
+                <label for="fulname">Full name</label><br>
+                <input type="text" required><br><br>
+                <label for="email">Email address</label><br>
+                <input type="email" required><br><br>
+                <label for="number">Phone number</label><br>
+                <input type="number" required><br><br>
+                <label for="message">Message</label><br>
+                <input type="text"><br><br>
+                <button>Send</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="location">
+            <h2>LOCATION</h2>
+            <p>2215 John Daniel Drive
+                Clark, MO 65243</p>
+        </div>
+        <div class="around">
+            <h2>
+                AROUND THE WEB
+            </h2>
+            <div>
+                <span class="material-symbols-outlined">
+                    mic
+                </span>
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                <span class="material-symbols-outlined">
+                    sports
+                </span>
+                <span class="material-symbols-outlined">
+                    language
+                </span>
             </div>
         </div>
-    </div>
+        <div class="freelancer">
+            <h2>
+                ABOUT FREELANCER
+            </h2>
+            <p>
+                Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap .
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
